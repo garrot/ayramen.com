@@ -2,13 +2,18 @@ html
 {
 	min-height: 100%;
 	min-width: 100%;
+	-ms-text-size-adjust: none;
 }
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,a
+body,div,dl,dt,dd,ul,ol,li,nav,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,a
 {
 	margin: 0;
 	padding: 0;
 	border-width: 0;
+	-webkit-transform-origin: left top;
+	-ms-transform-origin: left top;
+	-o-transform-origin: left top;
+	transform-origin: left top;
 }
 
 table
@@ -20,6 +25,10 @@ table
 fieldset,img
 {
 	border: 0;
+	-webkit-transform-origin: left top;
+	-ms-transform-origin: left top;
+	-o-transform-origin: left top;
+	transform-origin: left top;
 }
 
 address,caption,cite,code,dfn,em,strong,th,var,optgroup
@@ -102,6 +111,12 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-decoration: none;
 	font-style: normal;
 	font-weight: normal;
+}
+
+a,.pie-pagina a
+{
+	color: inherit;
+	text-decoration: inherit;
 }
 
 .pie-pagina a:link
@@ -207,11 +222,6 @@ a.nontext /* used to override default properties of 'a' tag */
 	word-wrap: normal;
 }
 
-.MenuBar .MenuItemContainer
-{
-	position: relative;
-}
-
 .rootelem /* the root of the artwork tree */
 {
 	margin-left: auto;
@@ -222,6 +232,11 @@ a.nontext /* used to override default properties of 'a' tag */
 {
 	display: inline;
 	float: left;
+	clear: both;
+}
+
+.colelem100 /* a child element of a column that is 100% width */
+{
 	clear: both;
 }
 
@@ -243,6 +258,11 @@ a.nontext /* used to override default properties of 'a' tag */
 *:first-child+html .clearfix /* IE7 */
 {
 	zoom: 1;
+}
+
+.clip_frame /* used to clip the contents as in the case of an image frame */
+{
+	overflow: hidden;
 }
 
 .inclusion_context /* context for positioning a group of elements that share the same height */
@@ -390,6 +410,7 @@ textarea
 .submit-btn /* form submit buttons on top of sibling elements */
 {
 	z-index: 50000;
+	cursor: pointer;
 }
 
 .anchor_item /* used to specify anchor properties */
@@ -403,7 +424,13 @@ textarea
 	display: block;
 }
 
-.widget_invisible,.js .invi,.js .se_invi /* used to hide the widget before loaded */
+.ose_ei
+{
+	visibility: hidden;
+	z-index: 0;
+}
+
+.widget_invisible,.js .invi,.js .mse_pre_init,.js .an_invi /* used to hide the widget before loaded */
 {
 	visibility: hidden;
 }
@@ -426,5 +453,65 @@ textarea
 .popup_element.Inactive,.js .disn,.hidden
 {
 	display: none;
+}
+
+.fullscreen
+{
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.fullwidth
+{
+	position: absolute;
+}
+
+.borderbox
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.scroll_wrapper
+{
+	position: absolute;
+	overflow: auto;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.browser_width > *
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+.MenuBar .MenuItemContainer,.SlideShowContentPanel .fullscreen img
+{
+	position: relative;
+}
+
+.accordion_wrapper
+{
+	display: inline;
+	float: left;
+	width: 0px;
 }
 
