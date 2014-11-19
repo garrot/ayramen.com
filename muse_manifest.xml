@@ -1,0 +1,48 @@
+<manifest alg="2" build="328" opt="true" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1414250018258">
+  <folder name="css">
+    <file name="site_global.css" crc="449994585"/>
+    <file name="index.css" crc="4119136864" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3850798583" ref="index"/>
+    <file name="museutils.js" crc="212726984" ref="index"/>
+    <file name="webpro.js" crc="114405901" ref="index"/>
+    <file name="musewpslideshow.js" crc="3797706250" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="254250306" ref="index"/>
+    <file name="touchswipe.js" crc="12843993" ref="index"/>
+    <file name="jquery.watch.js" crc="4125239756" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="3927220105" ref="index"/>
+    <file name="brown_fabric_texture.jpg" crc="3922763976" ref="index"/>
+    <file name="fondo.png" crc="4201874583" ref="index"/>
+    <file name="hilos-imagen-aba.png" crc="388426341" ref="index"/>
+    <file name="titulo.png" crc="4269901659" ref="index"/>
+    <file name="hilo negro.png" crc="347798210" ref="index"/>
+    <file name="hilos-imagen-arr.png" crc="3777032632" ref="index"/>
+    <file name="hilos-imagen-der.png" crc="403637420" ref="index"/>
+    <file name="hilos-imagen-izq.png" crc="316926668" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="costurero80x50.jpg" crc="4066321232" ref="index"/>
+    <file name="chino280x50.jpg" crc="4023426204" ref="index"/>
+    <file name="bote80x50.jpg" crc="4157661361" ref="index"/>
+    <file name="mesa80x50.jpg" crc="3907139907" ref="index"/>
+    <file name="cajones80x50.jpg" crc="4048331596" ref="index"/>
+    <file name="personaje 280x50.jpg" crc="4286343700" ref="index"/>
+    <file name="chino180x50.jpg" crc="4240958601" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="indiegames.png" crc="68852634" ref="index"/>
+    <file name="indiestatik.png" crc="87921146" ref="index"/>
+    <file name="pocketgamer.png" crc="3992862998" ref="index"/>
+    <file name="about.png" crc="448773553" ref="index"/>
+    <file name="costurero.jpg" crc="4260421284" ref="index"/>
+    <file name="chino2.jpg" crc="395165557" ref="index"/>
+    <file name="bote.jpg" crc="511989598" ref="index"/>
+    <file name="mesa.jpg" crc="4281798141" ref="index"/>
+    <file name="cajones.jpg" crc="407689841" ref="index"/>
+    <file name="personaje 2.jpg" crc="436563414" ref="index"/>
+    <file name="chino1.jpg" crc="3850118699" ref="index"/>
+    <file name="pie.jpg" crc="4257723755" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4081967049" mt="1414249395529" redirect="true"/>
+</manifest>
